@@ -1,10 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import { Col } from "react-bootstrap";
 
 export default class Menus extends Component {
   render() {
     return (
-     <Col md={2} mt='2'>
-        <h5><strong>Menu</strong></h5>
+      <Col md={2} mt="2">
+        <h5>
+          <strong>Menu</strong>
+        </h5>
         <hr />
       </Col>
     );
